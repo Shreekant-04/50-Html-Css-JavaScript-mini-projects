@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+  background-color: aqua;
+  overflow-x: hidden;
+  background-color: black;
+}
+.list {
+  height: 50vh;
+  width: 20vw;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5%;
+  padding-top: 5%;
+  list-style: none;
+  position: fixed;
+  top: 0;
+  left: -20%;
+  transition: 0.5s;
+}
+.list a {
+  font-size: 2vw;
+  text-decoration: none;
+  color: black;
+}
+.links {
+  margin-top: 20%;
+}
+#menu-btn {
+  display: none;
+}
+.menu {
+  width: 8vmin;
+  height: 8vmin;
+  margin: 15px;
+  z-index: 999;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: 0.75s;
+}
+.menu span {
+  display: block;
+  margin-bottom: 5px;
+  border-radius: 20px;
+  background-color: #fff;
+  height: 1vmin;
+  width: 5vmin;
+  transition: 0.75s;
+}
+#menu-btn:checked ~ .list {
+  left: 0;
+}
+#menu-btn:checked ~ label span:first-child {
+  transform: rotate(45deg) scale(1.1);
+  transform-origin: 0% 0%;
+  background-color: black;
+}
+
+#menu-btn:checked ~ label span:nth-child(3) {
+  transform: rotate(-45deg) scale(1.1);
+  transform-origin: 0% 100%;
+  background-color: black;
+}
+
+#menu-btn:checked ~ label span:nth-child(2) {
+  opacity: 0;
+  transform: scaleX(0);
+  transform-origin: 0;
+}
+#menu-btn:checked ~ .menu {
+  transform: translateX(210px);
+}
