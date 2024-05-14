@@ -2,9 +2,6 @@
 
  <table>
       <thead>
-        <caption>
-          HTML/CSS/JavaScript Mini Projects
-        </caption>
         <tr>
           <th>SNo</th>
           <th>Name</th>
