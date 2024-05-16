@@ -20,12 +20,14 @@
           <td><a href="https://glistening-cajeta-a6b4ef.netlify.app/hamburger%20menu/">Link</a></td>
         </tr>
         <td>3</td>
-          <td><a href="Hamburger Menu">Hamburger Menu</a></td>
-          <td><a href="https://glistening-cajeta-a6b4ef.netlify.app/hamburger%20menu/">Link</a></td>
+          <td><a href="Loader">
+           Loader
+          </a></td>
+          <td><a href="https://glistening-cajeta-a6b4ef.netlify.app/loader/">Link</a></td>
         </tr>
         <td>4</td>
-          <td><a href="Hamburger Menu">Hamburger Menu</a></td>
-          <td><a href="https://glistening-cajeta-a6b4ef.netlify.app/hamburger%20menu/">Link</a></td>
+          <td><a href="FAQ-page">FAQ-page</a></td>
+          <td><a href="https://glistening-cajeta-a6b4ef.netlify.app/faq-page/">Link</a></td>
         </tr>
       </tbody>
     </table>
