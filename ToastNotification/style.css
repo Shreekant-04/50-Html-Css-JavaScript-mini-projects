@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+  background-color: #fffcfc;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-image: url(/ToastNotification/5124556.jpg);
+  background-position: 5%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+form {
+  border: 2px solid black;
+  width: 30vw;
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  gap: 5px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px;
+  backdrop-filter: blur(5px);
+  margin-right: 20%;
+}
+.info {
+  font-size: calc(8px + 1.5vmin);
+}
+form h1 {
+  font-size: calc(20px + 5vmin);
+}
+.image {
+  height: 100px;
+}
+form label,
+form input,
+#message {
+  min-width: 80%;
+  text-indent: 5px;
+}
+form input {
+  height: 6vmin;
+  border-radius: 10px;
+  font-size: calc(10px + 2vmin);
+  border: 1px solid grey;
+  outline: none;
+}
+#message {
+  resize: vertical;
+  font-size: calc(10px + 1vmin);
+  min-height: 15vmin;
+  border-radius: 10px;
+}
+form button {
+  height: 8vmin;
+  width: 30vmin;
+  font-size: calc(10px + 1.5vmin);
+  border-radius: 20px;
+  border: none;
+  background-color: #37718e;
+  color: #fffcfc;
+  cursor: pointer;
+  margin-top: 10px;
+}
+form button:active {
+  font-size: calc(12px + 1.6vmin);
+}
+.toast-Notification {
+  width: 20vw;
+  position: fixed;
+  right: 10px;
+  bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.msgSent {
+  display: flex;
+  height: 8vmin;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  color: green;
+  font-weight: 900;
+  border-radius: 20px;
+  background-color: #e6e8e6;
+  box-shadow: 0 0 5px;
+  position: relative;
+  overflow: hidden;
+}
+.msgSent:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: black;
+  width: 100%;
+  height: 5px;
+  animation: width 5s linear forwards;
+}
+@keyframes width {
+  to {
+    width: 0;
+  }
+}

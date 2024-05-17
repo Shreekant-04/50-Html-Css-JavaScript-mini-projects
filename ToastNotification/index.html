@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Email</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+  </head>
+  <body>
+    <section class="toast-Notification"></section>
+    <form method="dialog" id="form">
+      <img src="/ToastNotification/icons8-at-sign-100.png" alt="envelop-image" height="90" />
+      <h1>Contact Us</h1>
+      <p class="info">Please fill this form in a decent manner</p>
+      <label for="name" class="name">Name</label>
+      <input type="text" name="name" id="name" />
+      <label for="email" class="email">Email</label>
+      <input type="email" name="email" id="email" />
+      <textarea
+        name="message"
+        id="message"
+        placeholder="Type your msg"
+      ></textarea>
+      <button class="send">Send Message</button>
+    </form>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
+
+    <script type="text/javascript">
+      emailjs.init("7ZaEaNQzseq5_pRjp");
+    </script>
+    <script src="script.js"></script>
+  </body>
+</html>
