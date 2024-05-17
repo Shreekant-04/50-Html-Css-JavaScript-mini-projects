@@ -1,5 +1,7 @@
 ﻿# 50+ Html-Css-JavaScript-mini-projects
 
+# <a href="https://glistening-cajeta-a6b4ef.netlify.app/">Table Link</a>
+
  <table>
       <thead>
         <tr>
