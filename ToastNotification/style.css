@@ -17,9 +17,8 @@ body {
   background-repeat: no-repeat;
 }
 form {
-  border: 2px solid black;
   width: 30vw;
-  min-height: 80vh;
+  min-height: 85vh;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
