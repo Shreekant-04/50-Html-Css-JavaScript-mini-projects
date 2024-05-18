@@ -32,7 +32,7 @@
           <td><a href="https://glistening-cajeta-a6b4ef.netlify.app/faq-page/">Link</a></td>
         </tr>
         <td>5</td>
-          <td><a href="ToastNotification">FAQ-page</a></td>
+          <td><a href="ToastNotification">Contact Us page</a></td>
           <td><a href="https://glistening-cajeta-a6b4ef.netlify.app/toastnotification/">Link</a></td>
         </tr>
       </tbody>
