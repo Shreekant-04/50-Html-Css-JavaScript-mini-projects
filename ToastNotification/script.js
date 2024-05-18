@@ -37,8 +37,7 @@ btn.addEventListener("click", () => {
 //unfilled  form pop
 function fillForm() {
   let div = document.createElement("div");
-  div.classList.add("msgSent");
-  div.style.color = "red";
+  div.classList.add("msg-not-sent");
   toastNotification.appendChild(div);
   div.innerHTML = `<span class="material-symbols-outlined"> check_circle </span> Please fill the form`;
   removeToast(div);
@@ -53,6 +52,7 @@ bookForm.addEventListener("submit", function (event) {
   emailjs.sendForm(serviceID, templateID, this).then(
     () => {
       toast();
+      this.reset();
     },
     (err) => {
       alert(JSON.stringify(err));
