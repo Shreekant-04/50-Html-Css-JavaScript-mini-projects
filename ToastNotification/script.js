@@ -39,7 +39,7 @@ function fillForm() {
   let div = document.createElement("div");
   div.classList.add("msg-not-sent");
   toastNotification.appendChild(div);
-  div.innerHTML = `<span class="material-symbols-outlined"> check_circle </span> Please fill the form`;
+  div.innerHTML = `<span class="material-symbols-outlined"> info </span> Please fill the form`;
   removeToast(div);
 }
 const bookForm = document.querySelector("#form");
