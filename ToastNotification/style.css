@@ -73,7 +73,7 @@ form button:active {
   font-size: calc(12px + 1.6vmin);
 }
 .toast-Notification {
-  width: 20vw;
+  width: 15vw;
   position: fixed;
   right: 10px;
   bottom: 50px;

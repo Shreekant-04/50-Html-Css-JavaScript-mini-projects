@@ -38,6 +38,7 @@ btn.addEventListener("click", () => {
 function fillForm() {
   let div = document.createElement("div");
   div.classList.add("msgSent");
+  div.style.color = "red";
   toastNotification.appendChild(div);
   div.innerHTML = `<span class="material-symbols-outlined"> check_circle </span> Please fill the form`;
   removeToast(div);
