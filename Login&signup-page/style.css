@@ -52,7 +52,7 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  background-color: #FCEFF9;
+  background-color: #fceff9;
   position: absolute;
   top: 0;
   right: 0%;
@@ -130,6 +130,11 @@ form h1 {
   margin-top: 10px;
   background-color: #2196f3;
   color: #f2f5ff;
+  cursor: pointer;
+}
+.login button:active,
+.sign-up button:active {
+  font-size: calc(10px + 2.2vmin);
 }
 .login button {
   margin-top: 10px;
