@@ -1,0 +1,211 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background: none;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(/Login&signup-page/hero.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.page {
+  background-color: #faf3f162;
+  border-radius: 20px;
+  height: 70%;
+  width: 60%;
+  box-shadow: 0 0 10px;
+  backdrop-filter: blur(10px);
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+
+.form {
+  height: 100%;
+  width: 50%;
+  padding: 2%;
+  backdrop-filter: blur(10px);
+}
+
+.anotherlogin {
+  width: 100%;
+  height: 8vmin;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1%;
+  margin-top: 10px;
+}
+.overlay {
+  height: 100%;
+  width: 50%;
+  color: #2196f3;
+  background-image: url(/Login&signup-page/bwink_ppl_01_single_01.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #FCEFF9;
+  position: absolute;
+  top: 0;
+  right: 0%;
+  transition: 0.75s;
+  display: flex;
+  flex-direction: column;
+  gap: 1%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  z-index: 9999;
+}
+.button {
+  height: 4vmin;
+  width: 15vmin;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-left: 20%;
+}
+#trans {
+  display: none;
+}
+.button:active {
+  font-size: calc(10px + 1.5vmin);
+}
+#trans:checked ~ .overlay {
+  transform: translateX(-100%);
+}
+.login,
+.sign-up {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  transition: 0.75s;
+}
+form h1 {
+  width: 100%;
+  text-align: center;
+  font-size: calc(20px + 3vmin);
+  color: #2196f3;
+}
+.login input,
+.sign-up input {
+  height: 6vmin;
+  width: 40vmin;
+  border-radius: 20px;
+  outline: none;
+  border: 1px solid grey;
+  text-indent: 10px;
+}
+
+.login label,
+.sign-up label {
+  width: 36vmin;
+  margin-top: 5%;
+  font-size: calc(10px + 2vmin);
+}
+.forgot {
+  margin-left: 35%;
+  font-size: calc(5px + 1vmin);
+}
+.login button,
+.sign-up button {
+  height: 8vmin;
+  width: 30vmin;
+  font-size: calc(10px + 2vmin);
+  border-radius: 20px;
+  border: none;
+  margin-top: 10px;
+  background-color: #2196f3;
+  color: #f2f5ff;
+}
+.login button {
+  margin-top: 10px;
+}
+.email {
+  margin-top: 20px;
+}
+
+.form1 {
+  position: absolute;
+  left: 0;
+}
+.form2 {
+  position: absolute;
+  right: 0;
+}
+#trans:checked ~ .form1 {
+  animation: hide 0.75s 1 forwards;
+}
+#trans:not(:checked) ~ .form1 {
+  animation: visible 0.75s 1 forwards;
+}
+#trans:checked ~ .form2 {
+  animation: visible2 0.75s 1 forwards;
+}
+#trans:not(:checked) ~ .form2 {
+  animation: hide2 0.75s 1 forwards;
+}
+
+@keyframes hide {
+  75% {
+    opacity: 0;
+  }
+  100% {
+    left: 25%;
+    opacity: 0;
+    display: none;
+  }
+}
+@keyframes hide2 {
+  75% {
+    opacity: 0;
+  }
+  100% {
+    right: 25%;
+    opacity: 0;
+    display: none;
+  }
+}
+@keyframes visible {
+  0% {
+    left: 25%;
+    opacity: 0;
+    display: none;
+  }
+  25% {
+    opacity: 0;
+  }
+  100% {
+    left: 0%;
+    opacity: 1;
+    display: block;
+  }
+}
+@keyframes visible2 {
+  0% {
+    right: 25%;
+    opacity: 0;
+    display: none;
+  }
+  25% {
+    opacity: 0;
+  }
+  100% {
+    right: 0%;
+    opacity: 1;
+    display: block;
+  }
+}
