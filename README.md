@@ -37,8 +37,8 @@
         </tr>
          </tr>
         <td>6</td>
-          <td><a href="Login&signup-page">Contact Us page</a></td>
-          <td><a href="https://glistening-cajeta-a6b4ef.netlify.app/Login&signup-page/">Link</a></td>
+          <td><a href="Login&signup-page">Sign In page</a></td>
+          <td><a href="https://glistening-cajeta-a6b4ef.netlify.app/login&signup-page/">Link</a></td>
         </tr>
       </tbody>
     </table>
