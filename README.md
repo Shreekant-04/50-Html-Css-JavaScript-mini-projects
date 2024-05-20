@@ -53,5 +53,10 @@
           <td><a href="ImageSlider">Image Slider</a></td>
           <td><a href="https://glistening-cajeta-a6b4ef.netlify.app/ImageSlider/">Link</a></td>
         </tr>
+        <tr>
+        <td>9</td>
+          <td><a href="SwipperJs">Image Crousel using Swipper.js</a></td>
+          <td><a href="https://glistening-cajeta-a6b4ef.netlify.app/SwipperJs/">Link</a></td>
+        </tr>
       </tbody>
     </table>
