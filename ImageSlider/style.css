@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  background-color:rgb(255,255,255);
+}
+.image {
+  height: 60%;
+  width: 46%;
+  background-image: url(/ImageSlider/day.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.night {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  clip-path: inset(0 0 100% 0);
+ 
+}
+.img {
+  height: 60%;
+  width: 46%;
+  background-image: url(/ImageSlider/night.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+}

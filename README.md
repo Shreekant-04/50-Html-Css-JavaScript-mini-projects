@@ -44,9 +44,14 @@
           <td><a href="https://glistening-cajeta-a6b4ef.netlify.app/login&signup-page/">Link</a></td>
         </tr>
          <tr>
-        <td>6</td>
+        <td>7</td>
           <td><a href="cardTilt">card Tilt</a></td>
           <td><a href="https://glistening-cajeta-a6b4ef.netlify.app/cardTilt/">Link</a></td>
+        </tr>
+        <tr>
+        <td>8</td>
+          <td><a href="ImageSlider">Image Slider</a></td>
+          <td><a href="https://glistening-cajeta-a6b4ef.netlify.app/ImageSlider/">Link</a></td>
         </tr>
       </tbody>
     </table>
