@@ -6,7 +6,6 @@ btn.forEach((el) => {
 
     let x = e.clientX - (rect.left + rect.width / 2);
     let y = e.clientY - (rect.top + rect.height / 2);
-    console.log(x, y);
     if (Math.abs(x) < 90 && Math.abs(y) < 50) {
       el.style.transform = `translate(${x}px, ${y}px)`;
     } else {
