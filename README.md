@@ -58,5 +58,10 @@
           <td><a href="SwipperJs">Image Crousel using Swipper.js</a></td>
           <td><a href="https://glistening-cajeta-a6b4ef.netlify.app/SwipperJs/">Link</a></td>
         </tr>
+         <tr>
+        <td>10</td>
+          <td><a href="SwipperJs">Magnetic Button</a></td>
+          <td><a href="https://glistening-cajeta-a6b4ef.netlify.app/MagneticButton/">Link</a></td>
+        </tr>
       </tbody>
     </table>
