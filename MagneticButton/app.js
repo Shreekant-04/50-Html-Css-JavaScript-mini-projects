@@ -2,6 +2,7 @@ console.log("hello");
 let btn = document.querySelectorAll(".btn");
 btn.forEach((el) => {
   el.addEventListener("mousemove", (e) => {
+    e.preventDefault();
     let rect = el.getBoundingClientRect();
 
     let x = e.clientX - (rect.left + rect.width / 2);
