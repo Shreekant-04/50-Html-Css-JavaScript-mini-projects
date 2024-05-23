@@ -63,5 +63,10 @@
           <td><a href="MagneticButton">Magnetic Button</a></td>
           <td><a href="https://glistening-cajeta-a6b4ef.netlify.app/MagneticButton/">Link</a></td>
         </tr>
+         <tr>
+        <td>11</td>
+          <td><a href="SwipperJs">chart.Js</a></td>
+          <td><a href="https://glistening-cajeta-a6b4ef.netlify.app/chartJs/">Link</a></td>
+        </tr>
       </tbody>
     </table>
