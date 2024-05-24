@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Random Password generator</title>
+    <link rel="shortcut icon" href="/time-management.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  </head>
+  <body>
+    <h1>Random Password Generator</h1>
+    <section class="wrapper">
+      <label for="pass" id="password">
+        <input type="text" id="pass" value="125" />
+        <span class="material-symbols-outlined copy-text"> content_copy </span>
+        <span class="material-symbols-outlined refresh"> refresh </span>
+      </label>
+      <label for="length" class="pass-length"
+        >length :
+        <input type="number" name="Num" id="num" readonly />
+        <label for="length" class="len">
+          0<input
+            type="range"
+            name="range"
+            id="length"
+            min="0"
+            max="20"
+            value="8"
+            step="1" />20
+        </label>
+      </label>
+
+      <div class="inc">
+        <label for="uppercase"
+          ><input type="checkbox" name="uppercase" id="uppercase" />
+          Uppercase</label
+        >
+        <label for="special-char"
+          ><input type="checkbox" name="symbol" id="special-char" />
+          Symbol(!@#*$_)</label
+        >
+        <label for="number">
+          <input type="checkbox" name="number" id="number" />
+          number</label
+        >
+      </div>
+
+      <button class="copy">Copy Password</button>
+    </section>
+    <script src="app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  background-color: #d1d2f9;
+}
+body h1{
+  margin-bottom: 20px;
+}
+.wrapper {
+  height: 50vmin;
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin-right: 20px;
+  position: relative;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 0 20px;
+  background-color: #fff;
+}
+#password {
+  border: 1px solid gray;
+  width: 98%;
+  height: 8vmin;
+  margin-top: 5px;
+  border-radius: 10px;
+  text-indent: 5px;
+  background-color: #fff;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#password span {
+  cursor: pointer;
+}
+#password:before {
+  content: "";
+  background-color: var(--after, green);
+  height: 5px;
+  width: var(--aaa, 100%);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition: 0.5s;
+  border-radius: 20px;
+}
+#password input {
+  width: 85%;
+  height: 100%;
+  border: none;
+  outline: none;
+  font-size: calc(5px + 2vmin);
+}
+.inc {
+  width: 50%;
+  height: 15vmin;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 5px;
+}
+.inc label {
+  width: 100%;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+.pass-length {
+  width: 45%;
+  height: 15vmin;
+  cursor: pointer;
+  font-size: calc(5px + 2vmin);
+  text-transform: capitalize;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 5%;
+  padding: 5px;
+}
+.len {
+  display: flex;
+  gap: 2px;
+}
+#num {
+  width: 7vmin;
+  height: 4vmin;
+  outline: none;
+  border: none;
+  font-size: calc(10px + 1vw);
+}
+.copy {
+  background-color: #7796cb;
+  height: 8vmin;
+  width: calc(10px + 10vw);
+  border: none;
+  border-radius: 20px;
+  font-size: calc(5px + 2vmin);
+  cursor: pointer;
+}
+.copy:active {
+  font-size: calc(5px + 2.1vmin);
+}
+
+.pop {
+  border: 1px solid grey;
+  height: 6vmin;
+  width: 15vmin;
+  text-align: center;
+  line-height: 5vmin;
+  border-radius: 10px;
+  position: absolute;
+  bottom: 25px;
+  right: 15%;
+  overflow: hidden;
+  color: green;
+}
+.pop:before {
+  content: "";
+  height: 5px;
+  width: 100%;
+  background-color: green;
+  position: absolute;
+  bottom: 0;
+  left: 0px;
+  animation: width 3s linear 1 forwards;
+}
+@keyframes width {
+  to {
+    width: 0;
+  }
+}
