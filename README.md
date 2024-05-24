@@ -68,5 +68,20 @@
           <td><a href="SwipperJs">chart.Js</a></td>
           <td><a href="https://glistening-cajeta-a6b4ef.netlify.app/chartJs/">Link</a></td>
         </tr>
+         <tr>
+        <td>12</td>
+          <td><a href="Speech-to-text/">Speech To text</a></td>
+          <td><a href="https://glistening-cajeta-a6b4ef.netlify.app/Speech-to-text/">Link</a></td>
+        </tr>
+         <tr>
+        <td>13</td>
+          <td><a href="PasswordGenerator">Random Password Generator</a></td>
+          <td><a href="https://glistening-cajeta-a6b4ef.netlify.app/PasswordGenerator/">Link</a></td>
+        </tr>
+        <tr>
+        <td>14</td>
+          <td><a href="QuoteGenerator">Quotes Generator</a></td>
+          <td><a href="https://glistening-cajeta-a6b4ef.netlify.app/QuoteGenerator/">Link</a></td>
+        </tr>
       </tbody>
     </table>
