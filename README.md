@@ -88,5 +88,10 @@
           <td><a href="doubleClickEvent">Quotes Generator</a></td>
           <td><a href="https://glistening-cajeta-a6b4ef.netlify.app/doubleClickEvent/">Link</a></td>
         </tr>
+        <tr>
+        <td>16</td>
+          <td><a href="clock">Clock And Stopwatch</a></td>
+          <td><a href="https://glistening-cajeta-a6b4ef.netlify.app/clock/">Link</a></td>
+        </tr>
       </tbody>
     </table>
