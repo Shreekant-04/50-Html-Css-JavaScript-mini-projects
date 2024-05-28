@@ -60,7 +60,7 @@
         </tr>
          <tr>
         <td>10</td>
-          <td><a href="SwipperJs">Magnetic Button</a></td>
+          <td><a href="MagneticButton">Magnetic Button</a></td>
           <td><a href="https://glistening-cajeta-a6b4ef.netlify.app/MagneticButton/">Link</a></td>
         </tr>
          <tr>
@@ -85,7 +85,7 @@
         </tr>
         <tr>
         <td>15</td>
-          <td><a href="doubleClickEvent">Quotes Generator</a></td>
+          <td><a href="doubleClickEvent">Double Click Event</a></td>
           <td><a href="https://glistening-cajeta-a6b4ef.netlify.app/doubleClickEvent/">Link</a></td>
         </tr>
         <tr>
@@ -100,8 +100,8 @@
         </tr>
         <tr>
         <td>18</td>
-          <td><a href="autoTextEffect"></a></td>
-          <td><a href="https://glistening-cajeta-a6b4ef.netlify.app//">Link</a></td>
+          <td><a href="ProgressStep">Progress-Step and Star-rating </a></td>
+          <td><a href="https://glistening-cajeta-a6b4ef.netlify.app/ProgressStep/">Link</a></td>
         </tr>
       </tbody>
     </table>
