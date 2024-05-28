@@ -98,5 +98,10 @@
           <td><a href="autoTextEffect">auto Text Effect</a></td>
           <td><a href="https://glistening-cajeta-a6b4ef.netlify.app/autoTextEffect/">Link</a></td>
         </tr>
+        <tr>
+        <td>18</td>
+          <td><a href="autoTextEffect"></a></td>
+          <td><a href="https://glistening-cajeta-a6b4ef.netlify.app//">Link</a></td>
+        </tr>
       </tbody>
     </table>
