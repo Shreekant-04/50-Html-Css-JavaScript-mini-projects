@@ -100,8 +100,8 @@
         </tr>
         <tr>
         <td>18</td>
-          <td><a href="autoTextEffect"></a></td>
-          <td><a href="https://glistening-cajeta-a6b4ef.netlify.app//">Link</a></td>
+          <td><a href="ProgressStep">Progress-Step and Star-rating </a></td>
+          <td><a href="https://glistening-cajeta-a6b4ef.netlify.app/ProgressStep/">Link</a></td>
         </tr>
       </tbody>
     </table>
