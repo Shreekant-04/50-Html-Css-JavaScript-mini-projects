@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+  overflow: hidden;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.75s;
+}
+.toggle-nav {
+  height: 8vmin;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.toggle-wrapper {
+  background-color: #145c9e;
+  box-shadow: 0 0 10px;
+  height: 5vmin;
+  width: 10vmin;
+  position: relative;
+  cursor: pointer;
+  border-radius: 20px;
+  padding: 10px;
+}
+.toggle-button {
+  height: 4vmin;
+  width: 4vmin;
+  background-color: black;
+  position: absolute;
+  left: 0%;
+  top: 10%;
+  transition: 0.5s;
+  margin-left: 5px;
+  border-radius: 50%;
+}
+#toggle {
+  display: none;
+}
+#toggle:checked ~ .toggle-button {
+  background-color: #fff;
+  left: 40%;
+}
+
+#toggle:checked ~ .toggle-wrapper {
+  background-color: #145c9e;
+}
+.wrapper {
+  height: max-content;
+  width: 50vmin;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 0 10px;
+  margin-right: 20px;
+}
+.image {
+  height: 50vmin;
+  background-image: url(https://images.unsplash.com/photo-1557551439-26c230b385f6?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.intract {
+  height: 6vmin;
+  padding: 5px 10px 0 10px;
+  display: flex;
+  justify-content: center;
+}
+.intract span {
+  cursor: pointer;
+}
+.intract label:nth-child(1) {
+  margin-right: auto;
+}
+.intract label:nth-child(3) {
+  margin-left: auto;
+}
+.save,
+.like {
+  transition: 0.15s;
+}
+@keyframes scale {
+  form {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.2);
+  }
+}
+#save-btn:checked ~ .save {
+  animation: scale 0.15s ease 1;
+  color: #145c9e;
+}
+#like-btn:checked ~ .like {
+  animation: scale 0.15s ease 1;
+  color: #145c9e;
+}
+.comment-span:active {
+  animation: scale 0.15s ease 1;
+}
+.intract input {
+  display: none;
+}
+.comments-wraper,
+.comments {
+  display: flex;
+  width: 100%;
+  padding: 5px;
+  height: min-content;
+}
+.comments-wraper {
+  flex-direction: column;
+  overflow-y: scroll;
+  height: 30%;
+  scrollbar-width: thin;
+}
+
+.comment,
+.nest-cmt {
+  display: flex;
+  flex-direction: column;
+}
+.reply {
+  text-decoration: none;
+  font-size: 10px;
+  margin-left: 5px;
+}
+.nest-cmt {
+  margin-left: 10px;
+}
+.comment-input {
+  border: none;
+  outline: none;
+}
