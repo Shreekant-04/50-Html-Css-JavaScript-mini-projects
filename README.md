@@ -85,7 +85,7 @@
         </tr>
         <tr>
         <td>15</td>
-          <td><a href="doubleClickEvent">Quotes Generator</a></td>
+          <td><a href="doubleClickEvent">Double Click Event</a></td>
           <td><a href="https://glistening-cajeta-a6b4ef.netlify.app/doubleClickEvent/">Link</a></td>
         </tr>
         <tr>
