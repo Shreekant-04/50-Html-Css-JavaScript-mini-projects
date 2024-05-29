@@ -3,7 +3,6 @@
   padding: 0;
   box-sizing: border-box;
   user-select: none;
-  overflow: hidden;
 }
 body {
   height: 100vh;
@@ -120,9 +119,10 @@ body {
 .comments-wraper {
   flex-direction: column;
   overflow-y: scroll;
-  height: 30%;
-  scrollbar-width: thin;
+  height: 20vmin;
+  scrollbar-width: none;
 }
+
 
 .comment,
 .nest-cmt {
