@@ -21,10 +21,7 @@ searchBtn.addEventListener("click", () => {
   let user = value;
   const url = `https://api.github.com/users/${user}`;
   const repo = `https://api.github.com/users/${user}/repos`;
-  console.log(url);
   searchprofile(url, repo);
-
-  console.log("clicked", value);
 });
 
 async function searchprofile(url, repo) {
@@ -41,6 +38,7 @@ async function searchprofile(url, repo) {
 
 function fetchedData(search, data, repos) {
   if (search.ok) {
+    deleteH1();
     let profile = document.querySelector(".photo");
     profile.style.backgroundImage = `url(${data.avatar_url})`;
     document.querySelector(".name").innerText = data.name;
@@ -54,6 +52,7 @@ function fetchedData(search, data, repos) {
     Repositories <span>${data.public_repos}</span>
     `;
     let reposDiv = document.querySelector(".repos");
+    deletePrevious();
     repos.forEach((el) => {
       let div = document.createElement("div");
       div.innerText = el.name;
@@ -61,10 +60,33 @@ function fetchedData(search, data, repos) {
     });
     document.querySelector(".content-wrapper").style.display = "flex";
   } else {
-    let h1 = document.createElement("h1");
     document.querySelector(".content-wrapper").style.display = "none";
-    h1.innerText =
-      "Status:404:User Not found! check the username and try again";
+    deleteH1();
+    let h1 = document.createElement("h1");
+    h1.classList.add("notfound");
+    let txt;
+    switch (search.status) {
+      case 403:
+        txt = "Forbidden";
+        break;
+      default:
+        txt = "user Not found Check the username and try again";
+        break;
+    }
+    h1.innerText = `Status:${search.status,txt}! check the username and try again`;
     document.querySelector("body").append(h1);
   }
+}
+function deleteH1() {
+  let hTag = [document.querySelector(".notfound")];
+  if (hTag.length === 1) {
+    hTag[0].remove();
+  }
+}
+
+function deletePrevious() {
+  let reposDiv = document.querySelectorAll(".repos div");
+  reposDiv.forEach((el) => {
+    el.remove();
+  });
 }
