@@ -8,3 +8,4 @@ sec.forEach((element) => {
       element.classList.add("new-height");
     });
   });
+  
