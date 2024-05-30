@@ -1,6 +1,5 @@
 console.log("hello");
 const nav = document.querySelectorAll("nav a");
-console.log(nav);
 nav.forEach((el) => {
   el.addEventListener("click", (e) => {
     e.preventDefault();
@@ -29,11 +28,7 @@ async function searchprofile(url, repo) {
   let data = await search.json();
   let fetchRepo = await fetch(repo);
   let repos = await fetchRepo.json();
-  console.log(search);
-
   fetchedData(search, data, repos);
-
-  console.log(search, fetchRepo);
 }
 
 function fetchedData(search, data, repos) {
@@ -73,7 +68,9 @@ function fetchedData(search, data, repos) {
         txt = "user Not found Check the username and try again";
         break;
     }
-    h1.innerText = `Status:${search.status,txt}! check the username and try again`;
+    h1.innerText = `Status:${
+      (search.status, txt)
+    }! check the username and try again`;
     document.querySelector("body").append(h1);
   }
 }
