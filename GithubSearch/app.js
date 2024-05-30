@@ -1,6 +1,6 @@
 console.log("hello");
 // Replace 'your_token_here' with your personal access token
-const token = "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";
+const token = "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";
 const headers = new Headers({
   Authorization: `token ${token}`,
 });
