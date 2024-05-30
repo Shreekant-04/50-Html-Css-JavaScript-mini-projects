@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Github Profile Search</title>
+    <link rel="shortcut icon" href="/time-management.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <a href="" class="active">Home</a>
+      <a href="">About</a>
+      <a href="">Service</a>
+      <a href="">Contact</a>
+      <a href="">Username</a>
+    </nav>
+
+    <main>
+      <div class="wrapper">
+        <label for="username" class="user"
+          >Search Github User
+          <input type="text" name="username" id="username" />
+        </label>
+        <button class="search-btn">Search</button>
+      </div>
+    </main>
+    <section class="content-wrapper">
+      <div class="profile">
+        <div class="photo"></div>
+        <p class="name"></p>
+        <p class="bio"></p>
+        <div class="follow-following"></div>
+        <div class="location"></div>
+      </div>
+      <h2 class="label-repo"></h2>
+      <div class="repos"></div>
+    </section>
+
+    <script src="app.js"></script>
+  </body>
+</html>
