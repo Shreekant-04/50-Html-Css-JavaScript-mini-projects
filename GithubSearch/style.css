@@ -71,9 +71,10 @@ main {
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  font-size: calc(15px + 1vw);
 }
 .user {
-  height: 12vmin;
+  height: 14vmin;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -82,11 +83,12 @@ main {
 }
 #username {
   width: 100%;
-  height: 6vmin;
+  height: 8vmin;
   text-indent: 10px;
   border-radius: 20px;
   outline: none;
   border: 1px solid gray;
+  font-size: calc(10px + 1vw);
 }
 .search-btn {
   height: 6vmin;
@@ -161,6 +163,7 @@ main {
   grid-template-columns: repeat(2, 1fr);
   gap: 5px;
   overflow-y: scroll;
+  overflow-x: hidden;
   margin-top: 4%;
 }
 .repos > div {

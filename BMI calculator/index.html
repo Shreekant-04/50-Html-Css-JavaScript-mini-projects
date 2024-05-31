@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 id="heading">BMI Calculator</h1>
+    <div class="container">
+      <div class="info">
+        <div class="inner-Info">
+          <div class="label-class">
+            <label class="info-label">Age</label>
+            <label class="info-label">Height</label>
+            <label class="info-label">Weight</label>
+          </div>
+          <div class="label-input">
+            <label for="" class="info-label age-input"
+              ><input
+                type="number"
+                class="age-info age"
+                value="25"
+                required
+              />Age 2-100</label
+            >
+            <label for="height" class="info-label background"
+              ><input
+                type="text"
+                value="180"
+                required
+                class="height"
+              />Cm</label
+            >
+            <label for="" class="info-label background"
+              ><input type="text" value="65" required class="weight" />Kg</label
+            >
+          </div>
+        </div>
+        <button class="calculate-btn size" onclick="bmiCal()">Calculate</button>
+        <button class="reset-btn size">clear</button>
+      </div>
+      <div class="resultdiv">
+        <p id="result-msg">Result :</p>
+        <p>
+          <b id="bmi-msg">BMI</b> <b id="sup-sript2">Kg/m<sup>2</sup></b>
+        </p>
+        <div class="result-meter">
+          <ul class="chartList">
+            <li>
+              <b
+                >Healthy BMI range: 18.5 kg/m<sup>2</sup> - 25 kg/m<sup
+                  >2</sup
+                ></b
+              >
+            </li>
+            <li><b class="weight-range">Healthy weight for the height: </b></li>
+            <li><b class="bmi-prime">BMI Prime</b></li>
+            <li>
+              <b class="ponderal-index">Ponderal Index: 13.2</b
+              ><b>kg/m<sup>3</sup></b>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <script src="bmi.js"></script>
+  </body>
+</html>
