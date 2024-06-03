@@ -16,12 +16,12 @@ body {
   width: 200px;
   position: relative;
   transition: all 0.6s ease-out;
-  transition: all 0.6s ease-out;
 }
 .tilt-box-wrap:hover {
   transition: all 0.3s linear;
   transform: scale(1.1);
 }
+
 .tilt-box {
   width: 100%;
   height: 100%;
@@ -40,10 +40,29 @@ body {
   border-radius: 20px;
   box-shadow: 5px 5px 5px;
   padding: 10px;
+  overflow: hidden;
 }
-.tilt-box p,
-.tilt-box h1 {
+.text {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  perspective: 1000px;
+  transform-style: preserve-3d;
+  transform: translateY(220px);
+  transition: 0.75s;
+  opacity: 0;
+}
+
+.text p,
+.text h1 {
   transform: translateZ(20px);
+}
+.tilt:hover ~ .tilt-box > div {
+  transform: translateY(0px);
+  opacity: 1;
 }
 .tilt {
   height: 33.333%;
@@ -52,6 +71,7 @@ body {
   cursor: pointer;
   z-index: 1;
 }
+
 .tilt:nth-child(1) {
   left: 0;
   top: 0;

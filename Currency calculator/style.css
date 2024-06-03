@@ -1,0 +1,139 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  justify-content: center;
+}
+nav {
+  background-color: #0d1821;
+  color: #f0f4ef;
+  height: 10vmin;
+  font-size: 1.5rem;
+  line-height: 10vmin;
+}
+
+body {
+  background-color: #f0f4ef;
+}
+main {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.outer {
+  height: 40vmin;
+  width: 110vmin;
+  margin-top: 50px;
+  border-radius: 30px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.info {
+  height: 15vmin;
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+  margin-top: 10px;
+  padding: 5px;
+}
+.info-container {
+  height: 12vmin;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  border-radius: 10px;
+  padding: 5px;
+}
+.info-container p {
+  text-align: start;
+  min-width: 30vmin;
+  text-indent: 10px;
+}
+.get-info {
+  height: 70%;
+  width: 100%;
+  border-radius: 10px;
+  margin-top: 5px;
+  display: flex;
+  justify-content: flex-start;
+  border: 1px solid grey;
+  background-color: #fff;
+}
+.sign {
+  height: 100%;
+  width: 25%;
+  align-content: center;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 8vmin;
+  text-indent: 1vmin;
+  border-right: 1px solid grey;
+  padding-right: 5px;
+}
+.from-img,
+.to-img {
+  margin: 10px 0 0 5px;
+}
+.label {
+  width: 100%;
+  text-indent: 3px;
+  font-size: 1.5rem;
+  text-align: justify;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  margin-top: 0;
+}
+
+.swap {
+  height: 5vmin;
+  width: 5vmin;
+  align-self: center;
+  cursor: pointer;
+  border-radius: 50%;
+  margin-top: 25px;
+}
+.unit-msg {
+  height: 5vmin;
+  width: 90%;
+  line-height: 5vmin;
+}
+.unit-msg p {
+  text-align: start;
+  font-size: 1rem;
+}
+.convertor {
+  height: 8vmin;
+  width: 90%;
+  padding: 5px;
+  display: flex;
+  justify-content: flex-start;
+}
+.convert-button {
+  height: 100%;
+  width: 25vmin;
+  background-color: #344966;
+  color: #f0f4ef;
+  font-size: 1.5rem;
+  border: none;
+  border-radius: 20px;
+}
+.result-div {
+  height: 100%;
+  font-size: 1.2rem;
+  font-weight: 700;
+  width: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: 10px;
+  text-align: start;
+  line-height: 8vmin;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+  border-radius: 30px;
+}
