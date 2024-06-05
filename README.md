@@ -135,7 +135,7 @@
         </tr>
         <tr>
         <td>25</td>
-          <td><a href="Currency calculator"></a></td>
+          <td><a href="Currency calculator">Currency calculator</a></td>
           <td><a href="https://glistening-cajeta-a6b4ef.netlify.app/Currency calculator/">Link</a></td>
         </tr>
       </tbody>
