@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  box-sizing: border-box;
+  text-align: center;
+}
+body {
+    background-color: white;
+}
+h1 {
+  background-color: #071108;
+  color: #fff;
+  height: 10vmin;
+  font-size: 3rem;
+  height: 5rem;
+  line-height: 5rem;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+.outer {
+  height: 30vmin;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+.choice {
+  border: 3px solid transparent;
+  height: 20vmin;
+  width: 20vmin;
+  margin-top: 10px;
+  align-self: center;
+  margin: 15px;
+  border-radius: 50%;
+  border: 1px solid black;
+
+}
+.choice:hover {
+  cursor: pointer;
+  height: 25vmin;
+  width: 25vmin;
+  transition: 0.25s;
+}
+#rock {
+  background-image: url(./images/rock.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#paper {
+  background-image: url(./images/paper.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#scissor {
+  background-image: url(./images/scissors.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.scorediv {
+  height: 15vmin;
+  display: flex;
+  justify-content: center;
+  margin: 5px;
+}
+.you {
+  align-self: center;
+  text-align: center;
+  font-size: 1.5rem;
+}
+.scorediv label {
+  font-size: 3rem;
+}
+.comp {
+  align-self: center;
+  text-align: center;
+  margin: 15px;
+  font-size: 1.5rem;
+}
+.msgBox {
+  background-color: #364652;
+  color: #c7dbe6;
+  /* height: 10vmin; */
+  display: inline;
+  line-height: 10vmin;
+  align-self: center;
+  text-align: center;
+  padding: 0 15px 0 15px;
+  border-radius: 30px;
+  font-size: 1.5rem;
+}
+@media (max-width: 500px) {
+  nav h1 {
+    font-size: 1.75rem;
+  }
+  .main {
+    border-color: blue;
+    height: 50vh;
+  }
+  .outer {
+    height: 50vmin;
+  }
+  .scorediv {
+    height: 30vmin;
+  }
+}
