@@ -113,5 +113,30 @@
           <td><a href="GithubSearch">Github profile Search </a></td>
           <td><a href="https://glistening-cajeta-a6b4ef.netlify.app/GithubSearch/">Link</a></td>
         </tr>
+        <tr>
+        <td>21</td>
+          <td><a href="pokemon">pokemon</a></td>
+          <td><a href="https://glistening-cajeta-a6b4ef.netlify.app/pokemon/">Link</a></td>
+        </tr>
+        <tr>
+        <td>22</td>
+          <td><a href="Rock paper scissor"> Rock paper scissor</a></td>
+          <td><a href="https://glistening-cajeta-a6b4ef.netlify.app/Rock paper scissor/">Link</a></td>
+        </tr>
+        <tr>
+        <td>23</td>
+          <td><a href="restaurant"> Restaurant Page</a></td>
+          <td><a href="https://glistening-cajeta-a6b4ef.netlify.app/restaurant/">Link</a></td>
+        </tr>
+        <tr>
+        <td>24</td>
+          <td><a href="BMI calculator">BMI calculator</a></td>
+          <td><a href="https://glistening-cajeta-a6b4ef.netlify.app/BMI calculator/">Link</a></td>
+        </tr>
+        <tr>
+        <td>25</td>
+          <td><a href="Currency calculator"></a></td>
+          <td><a href="https://glistening-cajeta-a6b4ef.netlify.app/Currency calculator/">Link</a></td>
+        </tr>
       </tbody>
     </table>
