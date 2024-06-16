@@ -138,9 +138,15 @@
           <td><a href="Currency calculator">Currency calculator</a></td>
           <td><a href="https://glistening-cajeta-a6b4ef.netlify.app/Currency calculator/">Link</a></td>
         </tr>
+        <tr>
          <td>26</td>
           <td><a href="slideinscroll">slidein on scroll</a></td>
           <td><a href="https://glistening-cajeta-a6b4ef.netlify.app/slideinscroll/">Link</a></td>
+        </tr>
+        <tr>
+         <td>27</td>
+          <td><a href="ClickAndDrag">Click And Drag</a></td>
+          <td><a href="https://glistening-cajeta-a6b4ef.netlify.app/ClickAndDrag/">Link</a></td>
         </tr>
       </tbody>
     </table>

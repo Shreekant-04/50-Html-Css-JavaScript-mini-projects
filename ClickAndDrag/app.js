@@ -11,31 +11,27 @@ for (let i = 1; i <= 31; i++) {
     `;
   slider.appendChild(div);
 }
-document.querySelector("body").addEventListener("mousedown", (e) => {
-  e.preventDefault();
-});
 
 slider.addEventListener("mousedown", (e) => {
-  e.preventDefault();
-
   isDown = true;
+  slider.style.cursor = "grabbing";
   startX = e.pageX - slider.offsetLeft;
   scrollLeft = slider.scrollLeft;
-  slider.style.cursor = "grabbing";
-  slider.addEventListener("mousemove", (e) => {
-    if (!isDown) return; // stop the fn from running
-    e.preventDefault();
-    const x = e.pageX - slider.offsetLeft;
-    const walk = x - startX;
-    slider.scrollLeft = scrollLeft - walk / 2;
-  });
 });
-slider.addEventListener("mouseup", (e) => {
-  e.preventDefault();
-  slider.style.cursor = "pointer";
+
+slider.addEventListener("mouseleave", () => {
   isDown = false;
 });
 
-document.querySelector(".slide").addEventListener("click", (e) => {
+slider.addEventListener("mouseup", () => {
+  isDown = false;
+  slider.style.cursor = "pointer";
+});
+
+slider.addEventListener("mousemove", (e) => {
+  if (!isDown) return; // stop the fn from running
   e.preventDefault();
+  const x = e.pageX - slider.offsetLeft;
+  const walk = x - startX;
+  slider.scrollLeft = scrollLeft - walk;
 });
