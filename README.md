@@ -148,5 +148,10 @@
           <td><a href="ClickAndDrag">Click And Drag</a></td>
           <td><a href="https://glistening-cajeta-a6b4ef.netlify.app/ClickAndDrag/">Link</a></td>
         </tr>
+         <tr>
+         <td>28</td>
+          <td><a href="calculator">Calculator</a></td>
+          <td><a href="https://glistening-cajeta-a6b4ef.netlify.app/calculator/">Link</a></td>
+        </tr>
       </tbody>
     </table>
