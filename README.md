@@ -159,9 +159,19 @@
           <td><a href="https://glistening-cajeta-a6b4ef.netlify.app/debitcard/">Link</a></td>
         </tr>
          <tr>
-         <td>28</td>
+         <td>30</td>
           <td><a href="piano">Piano</a></td>
           <td><a href="https://glistening-cajeta-a6b4ef.netlify.app/piano/">Link</a></td>
+        </tr>
+          <tr>
+         <td>31</td>
+          <td><a href="neonButton">Neon Button</a></td>
+          <td><a href="https://glistening-cajeta-a6b4ef.netlify.app/neonButton/">Link</a></td>
+        </tr>
+         <tr>
+         <td>32</td>
+          <td><a href="./debit card flip animation/">debit card flip animation</a></td>
+          <td><a href="https://glistening-cajeta-a6b4ef.netlify.app/debit card flip animation/">Link</a></td>
         </tr>
       </tbody>
     </table>

@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(./sharon-pittaway-iMdsjoiftZo-unsplash.jpg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  perspective: 1000px;
+}
+.wrapper {
+  height: 28vmin;
+  width: 50vmin;
+  border-radius: 20px;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+  z-index: 999;
+  transform-style: preserve-3d;
+  cursor: pointer;
+}
+.front {
+  height: 100%;
+  width: 100%;
+  padding: 10px;
+  background-color: #ffffff13;
+  backdrop-filter: blur(10px);
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  border-radius: 20px;
+  transition: 0.5s;
+  z-index: -1;
+  box-shadow: 0 0 10px;
+  backface-visibility: hidden;
+}
+
+.upper {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  height: 6vmin;
+}
+.chip {
+  position: absolute;
+  top: 40%;
+  left: 10px;
+}
+.detail {
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.back {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: end;
+  gap: 10px;
+  box-shadow: 0 0 10px;
+  background-color: #ffffff15;
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  transform: rotateY(-180deg);
+  backface-visibility: hidden;
+}
+
+.wrapper:hover {
+  transform: rotateY(180deg);
+}
+
+.strip {
+  height: 6vmin;
+  width: 100%;
+  margin-top: 15px;
+  background-color: #000000ef;
+}
+.info {
+  font-size: 10px;
+  width: 80%;
+}
+.security {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 10px;
+}
+.valid {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
