@@ -153,5 +153,15 @@
           <td><a href="calculator">Calculator</a></td>
           <td><a href="https://glistening-cajeta-a6b4ef.netlify.app/calculator/">Link</a></td>
         </tr>
+         <tr>
+         <td>29</td>
+          <td><a href="debitcard">Debit Card</a></td>
+          <td><a href="https://glistening-cajeta-a6b4ef.netlify.app/debitcard/">Link</a></td>
+        </tr>
+         <tr>
+         <td>28</td>
+          <td><a href="piano">Piano</a></td>
+          <td><a href="https://glistening-cajeta-a6b4ef.netlify.app/piano/">Link</a></td>
+        </tr>
       </tbody>
     </table>
