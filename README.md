@@ -173,5 +173,10 @@
           <td><a href="./debit card flip animation/">debit card flip animation</a></td>
           <td><a href="https://glistening-cajeta-a6b4ef.netlify.app/debit card flip animation/">Link</a></td>
         </tr>
+         <tr>
+         <td>33</td>
+          <td><a href=".Netflix-mobile-navigation/">Netflix Mobile Navigation</a></td>
+          <td><a href="https://glistening-cajeta-a6b4ef.netlify.app/Netflix-mobile-navigation/">Link</a></td>
+        </tr>
       </tbody>
     </table>
