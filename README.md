@@ -175,8 +175,13 @@
         </tr>
          <tr>
          <td>33</td>
-          <td><a href=".Netflix-mobile-navigation/">Netflix Mobile Navigation</a></td>
+          <td><a href="./Netflix-mobile-navigation/">Netflix Mobile Navigation</a></td>
           <td><a href="https://glistening-cajeta-a6b4ef.netlify.app/Netflix-mobile-navigation/">Link</a></td>
+        </tr>
+        <tr>
+         <td>34</td>
+          <td><a href="testimonial-box-switcher">Testimonial-Box-Switcher</a></td>
+          <td><a href="https://glistening-cajeta-a6b4ef.netlify.app/testimonial-box-switcher/">Link</a></td>
         </tr>
       </tbody>
     </table>
