@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: poppins, sans-serif;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px;
+  overflow-x: hidden;
+}
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  background-image: url(https://images.unsplash.com/photo-1528735000313-039ec3a473b0?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+header {
+  text-align: center;
+  width: 50%;
+  background-color: #ffffff80;
+  backdrop-filter: blur(5px);
+  border-radius: 10px 10px 0 0;
+}
+
+#survey-form {
+  width: 50%;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: #ffffff80;
+  backdrop-filter: blur(5px);
+  border-radius: 0 0 10px 10px;
+}
+label {
+  text-transform: capitalize;
+  width: 100%;
+  user-select: none;
+  margin: 10px 0;
+  cursor: pointer;
+}
+#name,
+#email,
+#number,
+#dropdown {
+  width: 90%;
+  height: 6vmin;
+  background-color: #fff;
+  border: none;
+  text-indent: 10px;
+}
+#dropdown {
+  cursor: pointer;
+}
+.improve-container {
+  display: flex;
+  flex-direction: column;
+}
+#comment {
+  resize: none;
+  width: 90%;
+  height: 130px;
+  padding: 5px;
+}
+
+#submit {
+  height: 8vmin;
+  width: 90%;
+  margin-top: 10px;
+  border: none;
+  background-color: rgba(0, 81, 255, 0.486);
+  color: #fff;
+  font-size: 25px;
+  cursor: pointer;
+}
+.imageby{
+    position: fixed;
+    right: 0;
+    bottom: 20px;
+    background-color: #fff;
+    padding: 10px;
+    transform: scale(0.8);
+}
