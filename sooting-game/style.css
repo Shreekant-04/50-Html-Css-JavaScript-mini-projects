@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+  user-select: none;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+  background-image: url(./assets/bg.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  cursor: url("./assets/crosshair.png"), auto;
+  position: relative;
+  perspective: 1000px;
+}
+h1 {
+  position: fixed;
+  top: 10px;
+}
+.score {
+  display: flex;
+  gap: 20px;
+  font-size: 26px;
+}
+.wrapper {
+  height: 50%;
+  width: 50%;
+  transform-style: preserve-3d;
+  animation: translate 5s ease-in alternate infinite;
+}
+
+.crow:nth-child(1) {
+  position: fixed;
+  transform: translate(20px, 50px);
+}
+.crow:nth-child(2) {
+  position: fixed;
+  transform: translate(180px, 40px);
+}
+.crow:nth-child(3) {
+  position: fixed;
+  transform: translate(280px, 180px);
+}
+.crow:nth-child(4) {
+  position: fixed;
+  transform: translate(100px, 180px);
+}
+.crow:nth-child(5) {
+  position: fixed;
+  transform: translate(500px, 100px);
+}
+.crow:nth-child(6) {
+  position: fixed;
+  transform: translate(350px, 20px);
+}
+.score-wrapper {
+  position: fixed;
+  left: 10px;
+  top: 50px;
+}
+.score-wrapper {
+  padding: 5px;
+  background-color: rgba(255, 255, 255, 0.582);
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+}
+
+@keyframes translate {
+  25% {
+    transform: translate(250px, -150px) translateZ(200px);
+  }
+  50% {
+    transform: translate(-250px, 150px) translateZ(-200px);
+  }
+  75% {
+    transform: translate(250px, 120px) translateZ(200px);
+  }
+  0%,
+  100% {
+    transform: translate(-300px, -200px) translateZ(-200px);
+  }
+}
