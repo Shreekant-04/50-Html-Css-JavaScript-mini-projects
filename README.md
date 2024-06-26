@@ -203,5 +203,10 @@
           <td><a href="tribute-page">Tribute-page</a></td>
           <td><a href="https://glistening-cajeta-a6b4ef.netlify.app/tribute-page/">Link</a></td>
         </tr>
+        <tr>
+         <td>39</td>
+          <td><a href="sooting-game">Shooting Game</a></td>
+          <td><a href="https://glistening-cajeta-a6b4ef.netlify.app/sooting-game/">Link</a></td>
+        </tr>
       </tbody>
     </table>
