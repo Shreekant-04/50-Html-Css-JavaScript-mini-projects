@@ -208,5 +208,10 @@
           <td><a href="sooting-game">Shooting Game</a></td>
           <td><a href="https://glistening-cajeta-a6b4ef.netlify.app/sooting-game/">Link</a></td>
         </tr>
+         <tr>
+         <td>40</td>
+          <td><a href="feedback-ui">Feedback-ui</a></td>
+          <td><a href="https://glistening-cajeta-a6b4ef.netlify.app/feedback-ui/">Link</a></td>
+        </tr>
       </tbody>
     </table>
