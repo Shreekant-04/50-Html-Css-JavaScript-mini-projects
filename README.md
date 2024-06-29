@@ -208,5 +208,15 @@
           <td><a href="sooting-game">Shooting Game</a></td>
           <td><a href="https://glistening-cajeta-a6b4ef.netlify.app/sooting-game/">Link</a></td>
         </tr>
+         <tr>
+         <td>40</td>
+          <td><a href="feedback-ui">Feedback-ui</a></td>
+          <td><a href="https://glistening-cajeta-a6b4ef.netlify.app/feedback-ui/">Link</a></td>
+        </tr>
+        <tr>
+         <td>41</td>
+          <td><a href="technical-documentation-page">Technical Documentation Page</a></td>
+          <td><a href="https://glistening-cajeta-a6b4ef.netlify.app/technical-documentation-page/">Link</a></td>
+        </tr>
       </tbody>
     </table>
