@@ -218,5 +218,10 @@
           <td><a href="technical-documentation-page">Technical Documentation Page</a></td>
           <td><a href="https://glistening-cajeta-a6b4ef.netlify.app/technical-documentation-page/">Link</a></td>
         </tr>
+        <tr>
+         <td>42</td>
+          <td><a href="Basic-animation-using-pseudo-classes">Basic animation using pseudo-classes</a></td>
+          <td><a href="https://glistening-cajeta-a6b4ef.netlify.app/Basic-animation-using-pseudo-classes/">Link</a></td>
+        </tr>
       </tbody>
     </table>
