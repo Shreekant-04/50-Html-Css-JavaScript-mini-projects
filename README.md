@@ -223,5 +223,10 @@
           <td><a href="Basic-animation-using-pseudo-classes">Basic animation using pseudo-classes</a></td>
           <td><a href="https://glistening-cajeta-a6b4ef.netlify.app/Basic-animation-using-pseudo-classes/">Link</a></td>
         </tr>
+         <tr>
+         <td>43</td>
+          <td><a href="Palindrome-checker">Palindrome Checker</a></td>
+          <td><a href="https://glistening-cajeta-a6b4ef.netlify.app/Palindrome-checker/">Link</a></td>
+        </tr>
       </tbody>
     </table>
