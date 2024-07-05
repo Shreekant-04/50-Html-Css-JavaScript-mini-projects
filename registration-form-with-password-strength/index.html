@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="form-container">
+      <form>
+        <div class="outer-bar">
+          <div class="inner-bar" id="strength-bar"></div>
+        </div>
+        <h1>Registration Form</h1>
+        <label for="email" class="username">Email</label>
+        <input type="email" name="email" id="email" required />
+        <label for="password" class="password">Password</label>
+        <input type="password" name="password" id="password" required oninput="checkPasswordStrength()" />
+        <button type="submit">Register</button>
+      </form>
+      <div class="msg" id="msg">Registration Successful</div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

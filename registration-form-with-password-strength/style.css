@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: calc(10px + 0.8vw);
+    color: #fff;
+  }
+  
+  body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./bg.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .form-container {
+    width: 90%;
+    max-width: 400px;
+    padding: 20px;
+    background: linear-gradient(black, red);
+    border-radius: 20px;
+    box-shadow: 0 0 10px 2px #fff;
+    background-size: 300% 300%;
+    animation: anim 3s linear infinite;
+  }
+  
+  .outer-bar {
+    height: 5px;
+    margin-bottom: 20px;
+    background-color: #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .inner-bar {
+    height: 100%;
+    width: 0;
+    background-color: green;
+    transition: width 0.3s;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 1.3rem;
+  }
+  
+  label {
+    margin-bottom: 5px;
+  }
+  
+  input {
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid grey;
+    font-size: 1rem;
+    color: #000;
+  }
+  
+  button {
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    background-color: black;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .msg {
+    text-align: center;
+    color: green;
+    margin-top: 10px;
+    display: none; /* Initially hidden */
+  }
+  
+  @keyframes anim {
+    0%, 100% {
+      background-position: 0% 0%;
+    }
+    50% {
+      background-position: 100% 100%;
+    }
+  }
+  

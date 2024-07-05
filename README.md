@@ -228,5 +228,10 @@
           <td><a href="Palindrome-checker">Palindrome Checker</a></td>
           <td><a href="https://glistening-cajeta-a6b4ef.netlify.app/Palindrome-checker/">Link</a></td>
         </tr>
+        <tr>
+         <td>44</td>
+          <td><a href="registration-form-with-password-strength">Registration-form With Password strength Checker</a></td>
+          <td><a href="https://glistening-cajeta-a6b4ef.netlify.app/registration-form-with-password-strength/">Link</a></td>
+        </tr>
       </tbody>
     </table>
