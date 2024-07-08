@@ -233,5 +233,14 @@
           <td><a href="registration-form-with-password-strength">Registration-form With Password strength Checker</a></td>
           <td><a href="https://glistening-cajeta-a6b4ef.netlify.app/registration-form-with-password-strength/">Link</a></td>
         </tr>
+        <tr>
+         <td>45</td>
+          <td><a href="Roman-number-convertor">Roman Numerical Convertor</a></td>
+          <td><a href="https://glistening-cajeta-a6b4ef.netlify.app/Roman-number-convertor/">Link</a></td>
+        </tr>
+         <td>46</td>
+          <td><a href="Roman-number-convertor">Phone Number Validator</a></td>
+          <td><a href="https://glistening-cajeta-a6b4ef.netlify.app/phone-Number-validator/">Link</a></td>
+        </tr>
       </tbody>
     </table>

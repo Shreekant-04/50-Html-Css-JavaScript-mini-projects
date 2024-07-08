@@ -1,0 +1,50 @@
+/* Basic styling for the app */
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  height: 100vh;
+  background-color: #f9f5ff;
+}
+
+.wrapper {
+  padding: 10px;
+  border-radius: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0 0 10px 2px;
+}
+input {
+  margin: 5px;
+  width: 90%;
+  padding: 10px;
+}
+.btns {
+  width: 90%;
+  height: 6vmin;
+}
+.btns button {
+  height: 100%;
+  width: 48%;
+  border: none;
+  border-radius: 20px;
+  background-color: #008bf8;
+  color: #fff;
+  font-size: calc(5px + 1vw);
+  cursor: pointer;
+}
+.btns button:active {
+  font-size: calc(5px + 1.1vw);
+}
+#results-div {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  width: 300px;
+  text-align: center;
+}
