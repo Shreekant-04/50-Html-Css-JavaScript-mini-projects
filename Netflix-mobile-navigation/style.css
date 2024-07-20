@@ -9,6 +9,10 @@ body {
   height: 100vh;
   width: 100vw;
   display: flex;
+  background-image: url(https://unsplash.com/photos/a-white-digital-clock-w5z4Un7A8jA);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 header {
@@ -30,7 +34,7 @@ nav {
   position: absolute;
   width: 6vmin;
   height: 5px;
-  background-color: #000;
+  background-color: #fff;
   margin-left: 20px;
   cursor: pointer;
   z-index: 10000;
@@ -45,7 +49,7 @@ nav {
   content: "";
   width: 100%;
   height: 5px;
-  background-color: #000;
+  background-color: #fff;
   transform: rotate(0);
   transition: 0.5s;
   cursor: pointer;
