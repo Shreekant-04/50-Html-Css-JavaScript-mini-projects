@@ -1,0 +1,51 @@
+@font-face {
+  font-family: myFirstFont;
+  src: url(./font.otf);
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  height: 100vh;
+  font-family: PP Mori sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: #fff;
+  overflow: hidden;
+}
+
+span {
+  font-size: calc(100px + 5rem);
+  font-weight: 900;
+}
+.container {
+  position: relative;
+  perspective: 1000px;
+}
+.first-word,
+.second-word {
+  perspective: 1000px;
+}
+.second-word {
+  transform: translateX(250px);
+}
+.flower {
+  position: fixed;
+  width: min-content;
+  left: 18%;
+  top: -10px;
+  padding: 15px;
+}
+
+.flower-svg {
+  transform: rotateX(180deg);
+  backface-visibility: hidden;
+}
+.first-word span,
+.second-word span {
+  display: inline-block;
+  margin: 0 5px;
+}
