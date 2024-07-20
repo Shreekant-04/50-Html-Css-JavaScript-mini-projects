@@ -27,7 +27,7 @@ gsap.fromTo(
 gsap.fromTo(
   ".i",
   { rotateX: 0 },
-  { rotateX: 360, duration: 1, delay: 7, repeat: -1, repeatDelay: 4 }
+  { rotateX: 360, duration: 1, delay: 6, repeat: -1, repeatDelay: 5 }
 );
 
 const spans = document.querySelectorAll("span");
