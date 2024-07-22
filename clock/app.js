@@ -9,7 +9,7 @@ const updateTime = () => {
   // Get current time and calculate degrees for clock hands
   let date = new Date(),
     secToDeg = date.getSeconds() * 6,
-    minToDeg = date.getMinutes() * 6,
+    minToDeg = date.getMinutes() * 6 + date.getSeconds() * (360 / 3600),
     hrToDeg = 30 * date.getHours() + date.getMinutes() / 2;
   // Rotate the clock hands to the appropriate degree based on the current time
   secondHand.style.transform = `rotate(${secToDeg}deg)`;
