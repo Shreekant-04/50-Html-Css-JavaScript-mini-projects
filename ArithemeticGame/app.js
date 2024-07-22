@@ -17,11 +17,14 @@ document.addEventListener("DOMContentLoaded", () => {
   let timerInterval;
 
   startButton.addEventListener("click", startGame);
-  submitButton.addEventListener("click", checkAnswer);
+  game.addEventListener("submit", (e) => {
+    e.preventDefault();
+    checkAnswer();
+  });
 
   function startGame() {
     score = 0;
-    timeLeft = 30;
+    timeLeft = 15;
     scoreElement.textContent = `Score: ${score}`;
     timerElement.textContent = timeLeft;
     startButton.disabled = true;
@@ -61,6 +64,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const userAnswer = parseFloat(answerInput.value);
     if (userAnswer === currentProblem.answer) {
       score++;
+      timeLeft += 2;
       scoreElement.textContent = `Score: ${score}`;
       resultElement.textContent = "Correct!";
     } else {
