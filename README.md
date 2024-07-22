@@ -253,5 +253,10 @@
           <td><a href="Tic-Tac-Toe">Tic-Tac-Toe Game</a></td>
           <td><a href="https://glistening-cajeta-a6b4ef.netlify.app/Tic-Tac-Toe/">Link</a></td>
         </tr>
+        <tr>
+         <td>49</td>
+          <td><a href="ArithemeticGame">Arithmetic  Game </a></td>
+          <td><a href="https://glistening-cajeta-a6b4ef.netlify.app/ArithemeticGame/">Link</a></td>
+        </tr>
       </tbody>
     </table>
