@@ -248,5 +248,10 @@
           <td><a href="gsap-1">Gsap Animation Library</a></td>
           <td><a href="https://glistening-cajeta-a6b4ef.netlify.app/gsap-1/">Link</a></td>
         </tr>
+        <tr>
+         <td>48</td>
+          <td><a href="Tic-Tac-Toe">Tic-Tac-Toe Game</a></td>
+          <td><a href="https://glistening-cajeta-a6b4ef.netlify.app/Tic-Tac-Toe/">Link</a></td>
+        </tr>
       </tbody>
     </table>
