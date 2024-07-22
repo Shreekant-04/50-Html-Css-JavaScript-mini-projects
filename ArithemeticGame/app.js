@@ -17,7 +17,10 @@ document.addEventListener("DOMContentLoaded", () => {
   let timerInterval;
 
   startButton.addEventListener("click", startGame);
-  submitButton.addEventListener("click", checkAnswer);
+  game.addEventListener("submit", (e) => {
+    e.preventDefault();
+    checkAnswer();
+  });
 
   function startGame() {
     score = 0;
