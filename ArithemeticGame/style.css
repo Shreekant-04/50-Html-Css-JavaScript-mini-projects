@@ -1,0 +1,77 @@
+/* style.css */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f0f4f8;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background-color: #fff;
+  border: 1px solid grey;
+  border-radius: 8px;
+  box-shadow: 0 0 10px white;
+  padding: 20px;
+  text-align: center;
+  width: 300px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+#game {
+  margin-bottom: 20px;
+}
+
+#problem {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+#answer {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #000;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+button:disabled {
+  background-color: #ddd;
+  cursor: not-allowed;
+}
+
+#result {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+#timer,
+#score {
+  font-size: 16px;
+}
+
+#start {
+  margin-top: 20px;
+}
