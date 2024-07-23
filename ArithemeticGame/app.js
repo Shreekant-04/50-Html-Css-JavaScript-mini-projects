@@ -32,6 +32,7 @@ document.addEventListener("DOMContentLoaded", () => {
     submitButton.disabled = false;
     answerInput.value = "";
     resultElement.textContent = "";
+    answerInput.focus();
 
     generateProblem();
     timerInterval = setInterval(() => {
@@ -64,7 +65,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const userAnswer = parseFloat(answerInput.value);
     if (userAnswer === currentProblem.answer) {
       score++;
-      timeLeft += 2;
+      timeLeft += 3;
       scoreElement.textContent = `Score: ${score}`;
       resultElement.textContent = "Correct!";
     } else {
