@@ -64,3 +64,11 @@ function clearQrCode() {
 
 // Event Listener to clear the QR code
 clear.addEventListener("click", clearQrCode);
+document.querySelector(".large").addEventListener("focus", () => {
+  document.querySelector(".qr-section").style.transform = "scale(1.7)";
+  qrGenerationForm.style.transform = "translateX(-100px)";
+});
+document.querySelector(".large").addEventListener("blur", () => {
+  document.querySelector(".qr-section").style.transform = "scale(1)";
+  qrGenerationForm.style.transform = "translateX(0)";
+});

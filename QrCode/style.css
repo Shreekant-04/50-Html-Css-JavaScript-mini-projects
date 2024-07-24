@@ -1,91 +1,137 @@
 /* General Reset */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  /* Body and Font */
-  body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    background-color: #f4f4f4;
-    color: #333;
-  }
-  
-  /* Header */
-  header {
-    background: #333;
-    color: #fff;
-    padding: 1rem;
-    text-align: center;
-  }
-  
-  /* Main Section */
-  main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 2rem;
-  }
-  
-  /* Form Styling */
-  #qr-generation-form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background: #fff;
-    padding: 1.5rem;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
-  
-  /* Input Fields */
-  #qr-content {
-    padding: 0.75rem;
-    margin-bottom: 1rem;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    width: 100%;
-    max-width: 300px;
-  }
-  
-  /* Buttons */
-  input[type="submit"], .clear {
-    padding: 0.75rem 1.5rem;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    background-color: #007bff;
-    color: #fff;
-    font-size: 1rem;
-    margin: 0.5rem;
-  }
-  
-  input[type="submit"]:hover, .clear:hover {
-    background-color: #0056b3;
-  }
-  
-  /* Clear Button */
-  .clear {
-    background-color: #dc3545;
-  }
-  
-  .clear:hover {
-    background-color: #c82333;
-  }
-  
-  /* QR Code Container */
-  #qr-code {
-    margin-top: 1.5rem;
-    width: 280px;
-    height: 280px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #fff;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
-  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body and Font */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Header */
+header {
+  background: #333;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+  flex-shrink: 0;
+}
+
+/* Main Section */
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  flex-grow: 1;
+  overflow: auto;
+  gap: 10px;
+  transition: 0.3s;
+  flex-wrap: wrap;
+}
+
+/* Form Styling */
+#qr-generation-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: 0.2s;
+}
+
+/* Input Fields */
+#qr-content {
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 100%;
+  max-width: 300px;
+}
+
+/* Buttons */
+input[type="submit"],
+.clear {
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 1rem;
+  margin: 0.5rem;
+  transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover,
+.clear:hover {
+  background-color: #0056b3;
+}
+
+/* Clear Button */
+.clear {
+  background-color: #dc3545;
+}
+
+.clear:hover {
+  background-color: #c82333;
+}
+
+/* QR Code Container */
+#qr-code {
+  width: 280px;
+  height: 280px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: 0.2s;
+}
+
+/* Enlarge Button */
+.large {
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #28a745;
+  color: #fff;
+  font-size: 1rem;
+  margin: 0.5rem;
+  transition: background-color 0.3s;
+}
+
+.large:hover {
+  background-color: #218838;
+}
+.qr-section {
+  margin-top: 2rem;
+  transition: 0.2s;
+  display: flex;
+  flex-direction: column;
+}
+
+a#open-data-url {
+  margin-top: 1rem;
+  color: #007bff;
+  text-decoration: none;
+  text-align: center;
+}
+
+a#open-data-url:hover {
+  text-decoration: underline;
+}
