@@ -39,10 +39,11 @@ function generateQrCode(qrContent) {
     // Convert the canvas to a Data URL
     const dataUrl = canvas.toDataURL("image/png");
 
-    // Update the href attribute of the <a> tag
-    const link = document.getElementById("open-data-url");
-    link.setAttribute("href", dataUrl);
-    link.textContent = "View QR Code in New Tab";
+  // Update the href attribute of the <a> tag
+  const link = document.getElementById("open-data-url");
+  link.setAttribute("href", dataUrl);
+  link.setAttribute("download", "qrcode.png"); // Optional: Set download attribute
+
   }, 100);
 
   // Append the canvas to the QR code container
