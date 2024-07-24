@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QR Code Generator with Background</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+    <link rel="shortcut icon" href="/time-management.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <header>
+      <h1>QR Code Generator</h1>
+    </header>
+    <main>
+      <form action="/" id="qr-generation-form">
+        <input
+          type="text"
+          name="qr-code-content"
+          id="qr-content"
+          placeholder="Enter QR content"
+          autocomplete="off"
+        />
+        <input type="submit" value="Generate QR Code" />
+        <button type="button" class="clear">Clear</button>
+      </form>
+      <br />
+      <div id="qr-code"></div>
+      <a id="open-data-url" href="#" target="_blank">View QR Code in New Tab</a>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>

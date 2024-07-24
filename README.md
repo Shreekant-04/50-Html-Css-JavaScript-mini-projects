@@ -258,5 +258,10 @@
           <td><a href="ArithemeticGame">Arithmetic  Game </a></td>
           <td><a href="https://glistening-cajeta-a6b4ef.netlify.app/ArithemeticGame/">Link</a></td>
         </tr>
+        <tr>
+         <td>50</td>
+          <td><a href="QrCode">Qr Code Generator </a></td>
+          <td><a href="https://glistening-cajeta-a6b4ef.netlify.app/QrCode/">Link</a></td>
+        </tr>
       </tbody>
     </table>
