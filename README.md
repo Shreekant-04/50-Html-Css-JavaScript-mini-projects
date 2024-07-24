@@ -263,5 +263,10 @@
           <td><a href="QrCode">Qr Code Generator </a></td>
           <td><a href="https://glistening-cajeta-a6b4ef.netlify.app/QrCode/">Link</a></td>
         </tr>
+        <tr>
+         <td>51</td>
+          <td><a href="random-avatar-creator">Avatar Generator</a></td>
+          <td><a href="https://glistening-cajeta-a6b4ef.netlify.app/random-avatar-creator/">Link</a></td>
+        </tr>
       </tbody>
     </table>

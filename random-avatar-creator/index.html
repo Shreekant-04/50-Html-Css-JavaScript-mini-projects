@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Avatar</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="/time-management.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <section class="wrapper">
+      <h1>Avatar for <strong class="avatarName">Shreekant</strong></h1>
+      <img
+        src="https://joesch.moe/api/v1/male/shreekant"
+        alt="avatar"
+        height="100"
+        class="avatar"
+      />
+      <form class="avatarcreator" id="avatarForm">
+        <input type="text" name="name" id="name" placeholder="Enter name" />
+        <div class="gender">
+          <input type="radio" name="gender" id="male" value="male" checked />
+          <label for="male">Male</label>
+          <input type="radio" name="gender" id="female" value="female" />
+          <label for="female">Female</label>
+        </div>
+        <button type="submit">Create</button>
+      </form>
+    </section>
+    <script src="app.js"></script>
+  </body>
+</html>
