@@ -268,5 +268,10 @@
           <td><a href="random-avatar-creator">Avatar Generator</a></td>
           <td><a href="https://glistening-cajeta-a6b4ef.netlify.app/random-avatar-creator/">Link</a></td>
         </tr>
+        <tr>
+         <td>52</td>
+          <td><a href="ScratchCard">Scratch Card</a></td>
+          <td><a href="https://glistening-cajeta-a6b4ef.netlify.app/ScratchCard/">Link</a></td>
+        </tr>
       </tbody>
     </table>
