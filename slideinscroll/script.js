@@ -1,7 +1,8 @@
-const image = document.querySelectorAll("img");
+const images = document.querySelectorAll("img");
+
 function slide() {
-  image.forEach((el) => {
-    const slideAt = window.scrollY + window.innerHeight + el.height /2;
+  images.forEach((el) => {
+    const slideAt = window.scrollY + window.innerHeight - el.height / 2;
     const imageBottom = el.offsetTop + el.height;
     const isHalfShown = slideAt > el.offsetTop;
     const isNotScrolledPast = window.scrollY < imageBottom;
@@ -13,5 +14,5 @@ function slide() {
   });
 }
 
-slide();
 window.addEventListener("scroll", slide);
+slide(); // Run once on page load
