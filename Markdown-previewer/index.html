@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Markdown Previewer</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="header">
+      <h1>Markdown to HTML Previewer</h1>
+    </div>
+    <div class="container">
+      <div class="editor-section">
+        <h2>Editor</h2>
+        <textarea id="editor"></textarea>
+      </div>
+      <div class="preview-section">
+        <h2>Preview</h2>
+        <div id="preview"></div>
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/2.0.2/marked.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
