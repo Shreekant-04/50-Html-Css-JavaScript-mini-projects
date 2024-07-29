@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text to Speech</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="/time-management.ico" type="image/x-icon" />
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <h1>Text to Speech</h1>
+            <textarea id="textInput" placeholder="Type something..."></textarea>
+                <label for="voiceSelect">Choose Voice:</label>
+                <select id="voiceSelect"></select>
+        </div>
+            <div class="control-group">
+                <label for="pitch">Pitch:</label>
+                <input type="range" id="pitch" min="0" max="2" value="1" step="0.1">
+                <span id="pitch-value">1</span>
+                <label for="volume">Volume:</label>
+                <input type="range" id="volume" min="0" max="1" value="1" step="0.1">
+                <span id="volume-value">1</span>
+                <label for="rate">Rate:</label>
+                <input type="range" id="rate" min="0.1" max="2" value="1" step="0.1">
+                <span id="rate-value">1</span>
+            </div>
+            <div class="button-group">
+                <button id="speakButton">Speak</button>
+                <p id="errorMessage" class="error"></p>
+
+            </div>
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
