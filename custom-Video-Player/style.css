@@ -1,0 +1,67 @@
+/* styles.css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #333;
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+.video-container {
+  position: relative;
+  width: 800px;
+  max-width: 100%;
+  background: #000;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.video {
+  width: 100%;
+  height: auto;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+
+}
+
+.control-button {
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  margin: 0 5px;
+}
+
+.seek-bar {
+  flex: 1;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.volume-bar {
+  width: 100px;
+  cursor: pointer;
+}
+
+.current-time,
+.duration {
+  margin: 0 5px;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Custom Video Player</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="/time-management.ico" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="video-container">
+      <video
+        id="video"
+        class="video"
+        src="https://archive.org/download/BigBuckBunny_124/Content/big_buck_bunny_720p_surround.mp4"
+        controlsList="nodownload"
+      ></video>
+      <div class="controls">
+        <button id="playPause" class="control-button">
+          <i class="fas fa-play"></i>
+        </button>
+        <input type="range" id="seekBar" class="seek-bar" value="0" />
+        <span id="currentTime" class="current-time">0:00</span> /
+        <span id="duration" class="duration">0:00</span>
+        <button id="muteUnmute" class="control-button">
+          <i class="fas fa-volume-up"></i>
+        </button>
+        <input
+          type="range"
+          id="volumeBar"
+          class="volume-bar"
+          min="0"
+          max="1"
+          step="0.1"
+          value="1"
+        />
+        <button id="fullscreen" class="control-button">
+          <i class="fas fa-expand"></i>
+        </button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,11 @@
+  // li.querySelector(`#task${index}`).addEventListener("change", (e) => {
+    //   task.completed = e.target.checked;
+    //   localStorage.setItem("Tasks", JSON.stringify(parsedTasks));
+    //   local();
+    // });
+
+    // li.querySelector(".delete").addEventListener("click", () => {
+    //   parsedTasks.splice(index, 1);
+    //   localStorage.setItem("Tasks", JSON.stringify(parsedTasks));
+    //   local();
+    // });

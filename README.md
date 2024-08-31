@@ -288,5 +288,20 @@
           <td><a href="confetti effect">Confetti effect</a></td>
           <td><a href="https://glistening-cajeta-a6b4ef.netlify.app/confetti effect/">Link</a></td>
         </tr>
+        <tr>
+         <td>56</td>
+          <td><a href="custom-Video-Player">Custom Video Playert</a></td>
+          <td><a href="https://glistening-cajeta-a6b4ef.netlify.app/custom-Video-Player/">Link</a></td>
+        </tr>
+        <tr>
+         <td>57</td>
+          <td><a href="3d-text-animation">3d Text Animation</a></td>
+          <td><a href="https://glistening-cajeta-a6b4ef.netlify.app/3d-text-animation/">Link</a></td>
+        </tr>
+        <tr>
+         <td>58</td>
+          <td><a href="3dRotation">3d Rotation</a></td>
+          <td><a href="https://glistening-cajeta-a6b4ef.netlify.app/3dRotation/">Link</a></td>
+        </tr>
       </tbody>
     </table>
