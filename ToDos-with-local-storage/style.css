@@ -49,9 +49,9 @@ body {
   transition: transform 0.2s ease-in-out;
 }
 
-.todo-item:hover {
+/* .todo-item:hover {
   transform: translateY(-5px);
-}
+} */
 
 .completed {
   text-decoration: line-through;
@@ -62,13 +62,17 @@ body {
 .delete {
   margin-left: auto;
   cursor: pointer;
+  transform: scale(0.7);
+  transition:  0.3s  ;
 }
-
-
+.delete:hover {
+  transform: scale(0.9);
+}
 
 .todo-item input[type="checkbox"] {
   margin-right: 15px;
   transform: scale(1.2);
+  accent-color: #74ebd5;
 }
 
 .todo-item span {
@@ -109,7 +113,6 @@ input[type="checkbox"] {
 .input-container button:hover {
   background-color: #16a085;
 }
-
 
 @keyframes fadeIn {
   from {

@@ -303,5 +303,10 @@
           <td><a href="3dRotation">3d Rotation</a></td>
           <td><a href="https://glistening-cajeta-a6b4ef.netlify.app/3dRotation/">Link</a></td>
         </tr>
+        <tr>
+         <td>59</td>
+          <td><a href="ToDos-with-local-storage">ToDos with local storage</a></td>
+          <td><a href="https://glistening-cajeta-a6b4ef.netlify.app/ToDos-with-local-storage/">Link</a></td>
+        </tr>
       </tbody>
     </table>
