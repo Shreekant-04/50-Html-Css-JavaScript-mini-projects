@@ -48,7 +48,7 @@ function populate() {
 
     list.appendChild(li);
   });
-//   events();
+  //   events();
 }
 
 // function events() {
@@ -79,7 +79,10 @@ const form = document.querySelector(".input-container");
 form.addEventListener("submit", add);
 populate();
 
-
-
-
 // splice(start, deleteCount, item1)
+
+// let a = [{ Task: "Abc", completed: false }];
+// let b = localStorage.setItem("Session", JSON.stringify(a));
+// let c = JSON.parse(localStorage.getItem("Session"));
+// console.log(c);
+// console.log(typeof c);
