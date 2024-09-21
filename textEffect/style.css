@@ -1,0 +1,93 @@
+/* style.css */
+* {
+  font-size: calc(10px + 1.5vw);
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+}
+
+.transition3 {
+  position: relative;
+  perspective: 1000px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+p {
+  background-color: #fff;
+  z-index: 1;
+  color: #000;
+  text-align: center;
+  padding: 30px 80px 20px 80px;
+  border-radius: 5px;
+  font-weight: 900;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 8vmin;
+  width: 20vmin;
+  transform-style: preserve-3d;
+  animation: rotate 5s infinite forwards;
+  position: relative;
+}
+
+.container label {
+  font-size: calc(10px + 1.5vw);
+  color: #fff;
+  position: absolute;
+  padding: 5px;
+  border-radius: 5px;
+  text-align: center;
+  transition: opacity 0.5s;
+  backface-visibility: hidden;
+  font-weight: 900;
+}
+
+.container label:nth-child(1) {
+  background-color: aqua;
+  transform: rotateX(120deg) translateZ(100px);
+  animation: fadeInOut 15s infinite;
+  animation-delay: 0s;
+}
+
+.container label:nth-child(2) {
+  background-color: red;
+  transform: rotateX(240deg) translateZ(100px);
+  animation: fadeInOut 15s infinite;
+  animation-delay: 5s;
+}
+
+.container label:nth-child(3) {
+  background-color: rgb(57, 158, 57);
+  transform: rotateX(360deg) translateZ(100px);
+  animation: fadeInOut 15s infinite;
+  animation-delay: 10s;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotateX(0deg);
+  }
+  30% {
+    transform: rotateX(-120deg);
+  }
+  60% {
+    transform: rotateX(-240deg);
+  }
+  100% {
+    transform: rotateX(-360deg);
+  }
+}
