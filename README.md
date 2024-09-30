@@ -285,8 +285,8 @@
         </tr>
         <tr>
          <td>55</td>
-          <td><a href="confetti effect">Confetti effect</a></td>
-          <td><a href="https://glistening-cajeta-a6b4ef.netlify.app/confetti effect/">Link</a></td>
+          <td><a href="confetti-effect">Confetti effect</a></td>
+          <td><a href="https://glistening-cajeta-a6b4ef.netlify.app/confetti-effect/">Link</a></td>
         </tr>
         <tr>
          <td>56</td>
