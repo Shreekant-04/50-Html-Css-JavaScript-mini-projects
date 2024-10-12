@@ -308,5 +308,10 @@
           <td><a href="ToDos-with-local-storage">ToDos with local storage</a></td>
           <td><a href="https://glistening-cajeta-a6b4ef.netlify.app/ToDos-with-local-storage/">Link</a></td>
         </tr>
+        <tr>
+         <td>60</td>
+          <td><a href="extension">Chrome Extension </a></td>
+          <td><a href="https://glistening-cajeta-a6b4ef.netlify.app/extension/">Link</a></td>
+        </tr>
       </tbody>
     </table>
